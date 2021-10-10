@@ -16,7 +16,7 @@
                     break;
 
                 default:
-                    finalAmount = 10;
+                    finalAmount = amount - 10;
                     break;
             }
 

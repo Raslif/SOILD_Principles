@@ -7,12 +7,12 @@
 
     public class Baleno : IVehicle
     {
-        public void FourPowerVehicle()
+        public void FourWheelPowerVehicle()
         {
             //throw new System.NotImplementedException();
         }
 
-        public void TwoPowerVehicle()
+        public void TwoWheelPowerVehicle()
         {
             // This a two weheel power Vehicle...
         }
@@ -20,12 +20,12 @@
 
     public class Thar : IVehicle
     {
-        public void FourPowerVehicle()
+        public void FourWheelPowerVehicle()
         {
             // This a four weheel power Vehicle...
         }
 
-        public void TwoPowerVehicle()
+        public void TwoWheelPowerVehicle()
         {
             //throw new System.NotImplementedException();
         }
@@ -33,7 +33,7 @@
 
     public interface IVehicle
     {
-        void FourPowerVehicle();
-        void TwoPowerVehicle();
+        void FourWheelPowerVehicle();
+        void TwoWheelPowerVehicle();
     }
 }

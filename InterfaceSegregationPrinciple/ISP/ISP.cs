@@ -5,29 +5,29 @@
 
     }
 
-    public class Baleno : ITwoPowerVehicle
+    public class Baleno : ITwoWheelPowerVehicle
     {
-        public void TwoPowerVehicle()
+        public void TwoWheelPowerVehicle()
         {
             // This a two weheel power Vehicle...
         }
     }
 
-    public class Thar : IFourPowerVehicle
+    public class Thar : IFourWheelPowerVehicle
     {
-        public void FourPowerVehicle()
+        public void FourWheelPowerVehicle()
         {
             // This a four weheel power Vehicle...
         }
     }
 
-    public interface IFourPowerVehicle
+    public interface IFourWheelPowerVehicle
     {
-        void FourPowerVehicle();
+        void FourWheelPowerVehicle();
     }
 
-    public interface ITwoPowerVehicle
+    public interface ITwoWheelPowerVehicle
     {
-        void TwoPowerVehicle();
+        void TwoWheelPowerVehicle();
     }
 }
